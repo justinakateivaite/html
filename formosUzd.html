@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<meta charset="utf-8">
+	<title>Mano pirmas html</title>
+	</head>
+	<body>
+			<h1>Duomenų informacija</h1>
+			<form method="POST">
+				<fieldset>
+					<label>El. pašto adresas:*</label>
+					<input type="email" name="email" required>
+				</fieldset>
+				<fieldset>
+					<label>Slaptažodis:*</label>
+					<input type="password" name="password" required>
+				</fieldset>
+				<fieldset>
+					<label>Patvirtinti slaptažodį:*</label>
+					<input type="password" name="password" required>
+				</fieldset>
+				<fieldset>
+					<label>Sutinku su <a href="https://www.keliueismotaisykles.info/" target="_blank">taisyklėmis</a></label>
+					<input type="checkbox" checked>
+				</fieldset>
+			</form>
+
+			<h1> Pasitikrinkite sąskaitos adresą</h1>
+			<form method="POST">
+				<fieldset>
+					<label>Lytis:*</label>
+					<select>
+						<option>Moteris</option>
+						<option>Vyras</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<label>Vardas:*</label>
+				<input type="text" name="name" required>
+				</fieldset>
+				<fieldset>
+					<label>Pavardė:*</label>
+				<input type="text" name="name" required>
+				</fieldset>
+				<fieldset>
+					<label>Gatvė, namo(buto) nr.:*</label>
+				<input type="text" name="name" required> <input type="number" name="number" required>
+				</fieldset>
+				<fieldset>
+					<label>Pašto kodas:*</label>
+				<input type="number" name="number" required> <a href="https://post.lt/pasto-kodu-ir-adresu-paieska" target="_blank">Pašto kodo paieška</a>
+				</fieldset>
+				<fieldset>
+					<label>Miestas:*</label>
+				<input type="text" name="name" required>
+				</fieldset>
+				<fieldset>
+					<label>Šalis:*</label>
+					<select>
+						<option selected disabled>-</option>
+						<option>Lietuva</option>
+						<option>Latvija</option>
+						<option>Estija</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<label>Telefonas:*</label>
+				<input type="number" name="number" required>
+				</fieldset>
+				<fieldset>
+					<label>Papildoma informacija: (Pavyzdžiui vartelių/durų kodas)</label>
+				<textarea name="message" required></textarea>
+				</fieldset>
+				<p>Prašome užpildyti visus pažymėtus laukus*</p>
+				<fieldset>
+				<button type="submit">Registruotis</button>
+				</fieldset>
+			</form>
+	</body>
+</html>
+
